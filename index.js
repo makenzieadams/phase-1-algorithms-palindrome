@@ -1,5 +1,20 @@
+//Write function isPalindrome
+//Should return true if string is a palindrome, else return false
+//Only lowercase
+//Rewrite problem in own words
+//Write test cases
+//Pseduocode
+//Code
+//Make it clean and readable
+//Optimize
+
 function isPalindrome(word) {
-  // Write your algorithm here
+  const wordBackwards = word.split("").reverse().join("");
+  if (wordBackwards === word) {
+    return true;
+  } else {
+    return false;
+  }
 }
 
 /* 
